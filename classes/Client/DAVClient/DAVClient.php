@@ -1,5 +1,8 @@
 <?php
 /* Copyright (c) 1998-2009 ILIAS open source, Extended GPL, see docs/LICENSE */
+
+require_once('./Customizing/global/plugins/Modules/Cloud/CloudHook/OwnCloud/vendor/autoload.php');
+
 use Sabre\DAV\Client;
 use Sabre\HTTP;
 /**
